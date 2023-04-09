@@ -35,6 +35,6 @@ function key(e) {
 }
 
 const containerEventTypes = ["touchstart","touchend"];
-for (const et of containerEventTypes) {container.addEventListener(et, key);}
+for (const et of containerEventTypes) {main.addEventListener(et, key);}
 const docEventTypes = ["keydown","keyup"];
 for (const et of docEventTypes) {document.addEventListener(et, key);}
